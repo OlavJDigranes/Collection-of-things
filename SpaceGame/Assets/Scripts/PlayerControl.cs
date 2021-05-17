@@ -36,6 +36,8 @@ public class PlayerControl : MonoBehaviour
         {
             Jump();
         }
+
+
     }
 
     void FixedUpdate()
