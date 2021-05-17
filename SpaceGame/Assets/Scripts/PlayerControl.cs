@@ -67,6 +67,9 @@ public class PlayerControl : MonoBehaviour
 
         transform.Rotate(Vector3.up, horizontalRotation);
         myCamera.transform.rotation = myCamera.transform.rotation * Quaternion.Euler(new Vector3(-verticalRotation, 0, 0));
+
+        //find ouyt how to roll a base rotation
+        //rb.rotation = Quaternion.Euler(new Vector3(0, Time.deltaTime, 0));
     }
 
     void Jump()
